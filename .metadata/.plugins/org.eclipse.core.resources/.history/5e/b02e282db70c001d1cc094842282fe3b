@@ -1,0 +1,24 @@
+package com.org.tav.day7;
+
+public class DemoInterface implements DemoFunctioal{
+
+	public void move() {
+		System.out.println(" override the default move method !!!");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  
+		DemoInterface d1 = new DemoInterface();
+		d1.print();
+		d1.move();
+		
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println(" Ovwrride method of java 8 !!");
+	}
+
+}

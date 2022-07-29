@@ -1,0 +1,5 @@
+package com.org.tav.itr;
+
+public interface Iterator {
+
+}

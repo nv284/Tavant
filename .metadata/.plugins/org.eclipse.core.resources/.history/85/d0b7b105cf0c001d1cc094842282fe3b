@@ -1,0 +1,46 @@
+package com.org.tav.day7;
+
+import java.time.LocalDate;
+import java.time.chrono.IsoChronology;
+
+public class Person {
+	
+	public enum Sex{
+		male, female
+	}
+	
+String name ;
+LocalDate birthday ;
+String emailAdddress ;
+Sex gender;
+public Person(String name, LocalDate birthday, String emailAdddress, Sex gender) {
+	super();
+	this.name = name;
+	this.birthday = birthday;
+	this.emailAdddress = emailAdddress;
+	this.gender = gender;
+}
+public int getAge() {
+	return birthday.until(IsoChronology.INSTANCE.dateNow()).getYears();
+}
+
+public void printPerson() {
+	System.out.println(name+" , "+ this.getAge());
+}
+
+public String getName() {
+	return name;
+}
+public LocalDate getBirthday() {
+	return birthday;
+}
+public String getEmailAdddress() {
+	return emailAdddress;
+}
+public Sex getGender() {
+	return gender;
+}
+
+
+
+}

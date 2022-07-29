@@ -1,0 +1,10 @@
+package com.org.tav.observer;
+
+public class CricketData {
+int runs , wickets ;
+float overs;
+
+CurrentScoreDisplay cdisp ;
+AverageScoreDisplay adisp;
+
+}

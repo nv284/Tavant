@@ -1,0 +1,9 @@
+package com.org.tav.observer;
+interface i1{
+	 void display();
+	}
+public class Demo {
+	i1 i =()->{System.out.print("lambda expression")}
+	i.display();
+}
+}

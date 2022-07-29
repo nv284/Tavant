@@ -1,0 +1,19 @@
+package com.adapter.phone.impl;
+
+import com.adapter.phone.MicroUsbPhone;
+
+public class Android implements MicroUsbPhone {
+
+	@Override
+	public void recharge() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void useMicroUsb() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

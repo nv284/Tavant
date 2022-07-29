@@ -1,0 +1,30 @@
+package com.org.tav.day7;
+import com.exploit.model.C_Employee;
+import com.exploit.model.Employee;
+import com.exploit.model.P_Employee;
+import com.exploit.util.HibernateUtil;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        SessionFactory sessionFactory
+        = HibernateUtil.getSessionFactory();
+
+    // Getting session from Sesson factory
+    Session session = sessionFactory.openSession();
+
+    // Begin transaction
+    Transaction transaction
+        = session.beginTransaction();
+
+    // Creating Employee base class record
+    Employee employee = new Employee();
+    employee.setName("KirikoChan");
+    employee.setAge(19);
+
+    }
+}

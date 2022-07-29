@@ -1,0 +1,37 @@
+package com.org.tav.compDP;
+
+public class Parent implements Human {
+    private String name;
+    private String lastName;
+	
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+
+	@Override
+	public String getLastName() {
+		// TODO Auto-generated method stub
+		return lastName;
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void addChild(Human child) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void addparant(Human parent) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

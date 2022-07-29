@@ -1,0 +1,30 @@
+package com.org.tav.strategy;
+
+import java.util.Scanner;
+
+public class StrategyPatternDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+
+System.out.println(" Enter the first Vlaue ");
+float value1 = sc.nextFloat();
+
+System.out.println(" Enter the second value ");
+float value2 = sc.nextFloat();
+
+Context con = new Context( new Addition());
+System.out.println("Addition = "+con.executeStr(value1, value2));
+
+con = new Context(new Subtraction());
+System.out.println(" Subtraction = "+con.executeStr(value1, value2));
+
+con = new Context(new Multiplication());
+System.out.println(" Multiplication = "+ con.executeStr(value1, value2));
+
+System.out.println(" Example of Strategy Pattern ....");
+
+	}
+
+}

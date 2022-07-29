@@ -1,0 +1,6 @@
+package com.org.tav.facade;
+
+public interface Hotel {
+
+	public Menus getMenu();
+}

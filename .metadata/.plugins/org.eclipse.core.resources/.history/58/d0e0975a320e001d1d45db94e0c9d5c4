@@ -1,0 +1,17 @@
+package com.org.adp;
+
+
+// Somewhere in client code ....
+public class Demo {
+	
+	RoundHole hole = new RoundHole(5);
+	RoundPeg  rpeg = new RoundPeg(5);
+	
+	if(hole)
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

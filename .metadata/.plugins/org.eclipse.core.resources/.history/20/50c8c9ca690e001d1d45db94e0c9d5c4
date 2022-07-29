@@ -1,0 +1,5 @@
+package com.org.tav.chain;
+
+public class PositiveProcesser extends Processor {
+
+}

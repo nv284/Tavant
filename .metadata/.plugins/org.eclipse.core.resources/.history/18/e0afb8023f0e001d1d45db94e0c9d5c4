@@ -1,0 +1,6 @@
+package com.org.tav.day9;
+
+public abstract class AbstractAccount {
+
+	private Logger logger = Logger.info();
+}

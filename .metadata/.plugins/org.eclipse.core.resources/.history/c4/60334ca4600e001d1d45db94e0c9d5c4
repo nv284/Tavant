@@ -1,0 +1,5 @@
+package com.org.tav.facade;
+
+public class NonVegRestro implements Hotel {
+
+}

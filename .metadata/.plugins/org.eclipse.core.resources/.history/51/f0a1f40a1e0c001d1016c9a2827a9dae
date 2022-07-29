@@ -1,0 +1,8 @@
+package com.org.tav.day8;
+import javax.persistence.*;  
+
+@Entity  
+@DiscriminatorValue("regularemployee")  
+public class Regular_Employee extends Employee {
+
+}

@@ -1,0 +1,13 @@
+package com.org.tav.itr;
+
+public class CollectionTypes implements Container {
+
+	public String name[]= {"Anubhav " , "Harsha ", "Shivam ","Shivesh ", "Harshita ", "Reethik " , " Dheeraj" , "Rajendra "};
+	
+	@Override
+	public Iterator getIterator() {
+		// TODO Auto-generated method stub
+		return New ;
+	}
+
+}

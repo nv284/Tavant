@@ -1,0 +1,29 @@
+package com.org.tav.observer;
+
+public class CricketData {
+int runs , wickets ;
+float overs;
+
+CurrentScoreDisplay cdisp ;
+AverageScoreDisplay adisp;
+public CricketData(CurrentScoreDisplay cdisp, AverageScoreDisplay adisp) {
+	super();
+	this.cdisp = cdisp;
+	this.adisp = adisp;
+}
+private int getLatRun() {
+	return 100;
+}
+private int getLatWic() {
+	return 2 ;
+}
+private float getLatOver() {
+	return (float) 15.2;
+}
+public void dataChanged() {
+	runs = getLatRun();
+	wickets = getLatWic();
+	overs = getLatOver();
+	adisp.update(runs, wickets, overs);
+}
+}

@@ -1,0 +1,11 @@
+package com.org.tav.itr;
+
+public class CollectionTypes implements Container {
+
+	@Override
+	public Iterator getIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.org.tav.day7;
+
+import java.time.LocalDate;
+
+public class Person {
+	
+	public enum Sex{
+		male, female
+	}
+	
+String name ;
+LocalDate birthday ;
+String emailAdddress ;
+Sex gender;
+
+
+
+}

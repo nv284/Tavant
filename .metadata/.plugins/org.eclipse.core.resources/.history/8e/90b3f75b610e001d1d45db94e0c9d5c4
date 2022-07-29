@@ -1,0 +1,9 @@
+package com.org.tav.facade;
+
+public class Hotelkeeper {
+public VegRestro getVegmenu() {
+	VegRestro v = new VegRestro();
+	VegRestro v1 =v.getMenu();
+	return vegMenu;
+}
+}

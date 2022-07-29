@@ -1,0 +1,10 @@
+package com.org.tav.singlep;
+
+public class DemoMutiThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,46 @@
+package com.org.tav.day7;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+public class DemoInterface implements DemoFunctioal , Interface2{
+
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<DemoInterface> a = new ArrayList<>();
+		a.add(new DemoInterface());
+		a.add(new DemoInterface());
+		a.add(new DemoInterface());
+		a.forEach(( d )->d.move());
+		
+		
+  
+		DemoInterface d1 = new DemoInterface();
+		d1.print();
+		d1.move();
+		//DemoFunctioal.super.move();
+		
+		
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println(" Ovwrride method of java 8 !!");
+	}
+
+	@Override
+	public void m2() {
+		// TODO Auto-generated method stub
+		System.out.println(" interface2 method ");
+	}
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		DemoFunctioal.super.move();
+	}
+
+}

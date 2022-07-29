@@ -1,0 +1,24 @@
+package com.org.tav.singlep;
+
+public class Singleton {
+	
+	static Singleton instance;
+	public String value;
+
+	public Singleton(String Value) {
+		super();
+		try {
+			Thread.sleep(1000);
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	
+	public static Singleton getInstance(String value) {
+		if(instance == null) {
+			instance = new Singleton(value);
+		}
+		return instance;
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.org.tav.bp1;
+
+public class BurgerBuilder {
+private Burger burger;
+
+public BurgerBuilder(Burger burger) {
+	super();
+	this.burger = burger;
+}
+public void addBread(String bread) {
+	burger.setBread(bread);
+}
+
+
+public Burger build() {
+	return this.burger;
+}
+}

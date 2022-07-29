@@ -1,0 +1,10 @@
+package com.adapter.phone.main;
+
+public class AdaptorMainDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

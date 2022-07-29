@@ -1,0 +1,6 @@
+package com.org.tav.bp1;
+
+public class BurgerBuilder {
+private Burger burger;
+
+}

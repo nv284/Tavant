@@ -1,0 +1,18 @@
+package com.org.tav.bp1;
+
+public class EmployeeRecord implements Prototype {
+
+	private int id ; 
+	private String name , designation ;
+	private double salary ;
+	private String address;
+	
+	
+	
+	@Override
+	public Prototype getClone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

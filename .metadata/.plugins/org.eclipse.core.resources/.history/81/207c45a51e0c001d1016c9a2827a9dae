@@ -1,0 +1,21 @@
+package com.org.tav.day8;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.org.tav.day7.HibernateUtil;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        SessionFactory sessionFactory = HibernateUtil.getInstnce();
+        Session session = sessionFactory.openSession();    
+
+    }
+}

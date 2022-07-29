@@ -1,0 +1,21 @@
+package com.org.tav.FD;
+
+public class GetPlanFactory {
+
+	
+	public Plan getPlan(String planType) {
+		if(planType ==null) {
+			return null;
+		}
+		if(planType.equalsIgnoreCase("DomesticPlan")) {
+			return new DomesticPlan();
+		}
+		if(planType.equalsIgnoreCase("CommercialPlan")) {
+			return new CommercialPlan();
+		}
+		if(planType.equalsIgnoreCase("InstitutionPlan")) {
+			return new InstitutionPlan();
+		}
+		return null;
+	}
+}

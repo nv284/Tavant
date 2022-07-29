@@ -1,0 +1,12 @@
+package com.org.tav.facade;
+
+public class NonVegRestro implements Hotel {
+
+	@Override
+	public Menus getMenu() {
+		// TODO Auto-generated method stub
+		NonVergMenu nv = new NonVegRestro();
+		return null;
+	}
+
+}

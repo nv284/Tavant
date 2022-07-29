@@ -1,0 +1,8 @@
+package com.org.tav.BP;
+//builder pattern allows step by step construction of different  Car models 
+
+// all possible ways to configure a product 
+public interface Builder {
+	
+
+}

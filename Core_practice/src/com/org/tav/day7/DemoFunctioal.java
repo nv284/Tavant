@@ -1,0 +1,21 @@
+package com.org.tav.day7;
+
+@FunctionalInterface
+public interface DemoFunctioal {
+
+	
+	public void print();//sam
+//	public void dataCall();
+	
+	default void move() {
+		System.out.println(" I am java 8 default method !!");
+	}
+	static void hi() {
+		System.out.println(" Hi this is new static method !!");
+		
+
+	}
+	static int cal(int x , int y) {
+		return x+y ;
+	}
+}

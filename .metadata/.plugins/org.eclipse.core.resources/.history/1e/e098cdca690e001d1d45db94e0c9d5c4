@@ -1,0 +1,16 @@
+package com.org.tav.chain;
+
+public class Chain {
+Processor chain;
+
+public Chain(Processor chain) {
+	super();
+	this.chain = chain;
+}
+private void buildChain() {
+	chain = new 
+}
+public void process(Number req) {
+	chain.process(req);
+}
+}

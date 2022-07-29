@@ -1,0 +1,13 @@
+package com.org.adp;
+
+public class SquarePegAdapter extends RoundPeg {
+
+	private SquarePeg peg;
+
+	public SquarePegAdapter(SquarePeg peg) {
+		super();
+		this.peg = peg;
+	}
+	
+	
+}

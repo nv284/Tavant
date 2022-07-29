@@ -1,0 +1,28 @@
+package com.adapter.phone.wrap;
+
+import com.adapter.phone.MicroUsbPhone;
+import com.adapter.phone.impl.Iphone;
+
+public class LightningToMicroUsbAdapter implements MicroUsbPhone {
+
+	private final Iphone lightningPhone;
+	
+	
+	public LightningToMicroUsbAdapter(Iphone iPhone) {
+		super();
+		this.lightningPhone = iPhone;
+	}
+
+	@Override
+	public void recharge() {
+		// TODO Auto-generated method stub
+    lightningPhone.recharge();
+	}
+
+	@Override
+	public void useMicroUsb() {
+		// TODO Auto-generated method stub
+		  System.out.println("MicroUsb connected ");
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.org.tav.BP;
+
+public class CarManualBuilder implements Builder {
+	private CarType type;
+	private int seats;
+	private Engine engine;
+	private Transmission transmission;
+	private TripComputer tripComputer;
+	private GPSNavigator gpsNavigator;
+}

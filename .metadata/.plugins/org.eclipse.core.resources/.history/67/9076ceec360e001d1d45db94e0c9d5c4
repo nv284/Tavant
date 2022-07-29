@@ -1,0 +1,19 @@
+package com.adapter.phone.impl;
+
+import com.adapter.phone.LightningPhone;
+
+public class Iphone implements LightningPhone {
+
+	@Override
+	public void recharge() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void useLightning() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.org.tav.observer;
+interface i1{  
+    int sum(int x,int y);  
+} 
+public class Demo {
+	public static void main(String[] args) { 
+		 i1 a=(x,y)->(x+y);  
+	        System.out.println(a.sum(10,20));  
+	          
+	        // Multiple parameters with data type in lambda expression  
+	        i1 b=(int x,int y)->(x+y);  
+	        System.out.println(b.sum(100,200));  
+	}  
+}

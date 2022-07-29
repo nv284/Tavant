@@ -1,0 +1,5 @@
+package com.org.tav.day8;
+
+public class HibernateUtil {
+
+}

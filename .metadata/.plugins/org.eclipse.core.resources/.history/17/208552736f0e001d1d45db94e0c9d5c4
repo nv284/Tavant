@@ -1,0 +1,11 @@
+package com.org.tav.observer;
+
+public class AverageScoreDisplay {
+
+	private float runRate;
+	private int AsumeScore;
+	
+	public void update(int runs , int wickets , float overs) {
+		this.runRate = 
+	}
+}

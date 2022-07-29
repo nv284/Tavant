@@ -1,0 +1,14 @@
+package com.org.tav.compDP;
+
+public class CompositMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Child c1 = new Child("marry","com");
+    Parent p1 = new Parent("Emily", "Joseph");
+    Parent p2 = new Parent("Kamila", "Tose");
+    
+    m1.addparant(p2);
+	}
+
+}

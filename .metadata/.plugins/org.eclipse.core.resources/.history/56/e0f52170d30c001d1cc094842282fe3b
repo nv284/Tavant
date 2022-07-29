@@ -1,0 +1,23 @@
+package com.org.tav.day7;
+
+@FunctionalInterface
+interface Myinterface{
+	double getPiValue();
+}
+interface Myinterface2
+{
+	String reverse(String n);
+}
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      //declare ref of myinterface 
+		Myinterface  ref= ()-> 3.14;
+		System.out.println("Value of pi = "+ref.getPiValue());
+		
+		Myinterface2 ref2 = 
+		
+	}
+
+}

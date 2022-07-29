@@ -1,0 +1,11 @@
+package com.org.tav.bp1;
+
+public class EmployeeRecord implements Prototype {
+
+	@Override
+	public Prototype getClone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

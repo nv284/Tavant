@@ -1,0 +1,7 @@
+package com.org.tav.day7;
+
+@Entity
+@Table(name = "customer1")
+public class Customer {
+
+}

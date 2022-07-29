@@ -1,0 +1,16 @@
+package com.org.tav.singlep;
+
+public class Singleton {
+	
+	Singleton instance;
+
+	public Singleton(Singleton instance) {
+		super();
+		this.instance = instance;
+	}
+	
+	public static Singleton getInstance(String value) {
+		if(ins)
+	}
+
+}

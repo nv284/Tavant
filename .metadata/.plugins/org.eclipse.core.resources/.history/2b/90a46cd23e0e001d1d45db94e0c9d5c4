@@ -1,0 +1,5 @@
+package com.org.tav.day9;
+
+public abstract class AbstractAccount {
+
+}
